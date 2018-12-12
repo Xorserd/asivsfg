@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dob: 2018-12-10
+  country: MyString
+  email: MyString
+  homeaddress: MyString
+  gender: false
+  arrival_date: 2018-12-10
+  destination: MyString
+  passport_number: MyString
+  passport_issued: 2018-12-10
+  passport_expire: 2018-12-10
+  price: 9.99
+
+two:
+  name: MyString
+  dob: 2018-12-10
+  country: MyString
+  email: MyString
+  homeaddress: MyString
+  gender: false
+  arrival_date: 2018-12-10
+  destination: MyString
+  passport_number: MyString
+  passport_issued: 2018-12-10
+  passport_expire: 2018-12-10
+  price: 9.99

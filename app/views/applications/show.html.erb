@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @application.name %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @application.dob %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @application.country %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @application.email %>
+</p>
+
+<p>
+  <strong>Homeaddress:</strong>
+  <%= @application.homeaddress %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @application.gender %>
+</p>
+
+<p>
+  <strong>Arrival date:</strong>
+  <%= @application.arrival_date %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @application.destination %>
+</p>
+
+<p>
+  <strong>Passport number:</strong>
+  <%= @application.passport_number %>
+</p>
+
+<p>
+  <strong>Passport issued:</strong>
+  <%= @application.passport_issued %>
+</p>
+
+<p>
+  <strong>Passport expire:</strong>
+  <%= @application.passport_expire %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @application.price %>
+</p>
+
+<%= link_to 'Edit', edit_application_path(@application) %> |
+<%= link_to 'Back', applications_path %>
